@@ -1,0 +1,27 @@
+body {
+  font-family: "Gravity Regular";
+  background-color: #313131;
+}
+
+.label {
+  color: #FFFFFF;
+}
+
+.progress-bar {
+  width: 50%;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.progress {
+  width: 800px;
+  height: 24px;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-family: "Gravity Bold";
+  font-size: 18px;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}

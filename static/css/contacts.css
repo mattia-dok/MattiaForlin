@@ -1,0 +1,29 @@
+body {
+  font-family: "Gravity Regular";
+  background-color: #313131;
+}
+
+#contact-me {
+  color: #FFFFFF;
+  font-family: "Gravity Bold";
+  padding: 5px 0 20px 0;
+}
+
+#cont {
+  margin-top: 20px !important;
+}
+
+#button {
+  width: 120px;
+  height: 50px;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: "Gravity Bold";
+  border-radius: 7px;
+  transition: 0.5s;
+}
+
+#button:hover {
+  background-color: #F53B4D;
+  color: #FFFFFF;
+}

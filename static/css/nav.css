@@ -1,0 +1,37 @@
+#nav {
+  background-color: #313131 !important;
+  color: #FFFFFF;
+}
+
+.navbar-brand, .nav-link, #become-a-member {
+  font-size: 18px;
+}
+
+.navbar-brand, .nav-link {
+  padding: 15px 15px 15px 15px !important;
+}
+
+#become-a-member {
+  background-color:#F53B4D;
+  color: #FFFFFF;
+  width: 10rem;
+  height: 1.8rem;
+  position: relative;
+  top: 7px;
+  margin-left: 15px;
+  padding: 5px 10px 5px 10px;
+  transition: 0.5s;
+}
+
+#become-a-member:hover {
+  background-color: #FFFFFF !important;
+  color: #000000;
+}
+
+.nav-L {
+  color: #FFFFFF !important;
+}
+
+#home-L {
+  padding: 0 262px 0 0 !important;
+}

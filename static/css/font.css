@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Gravity Regular";
+  src: url("../fonts/Gravity-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gravity Bold";
+  src: url("../fonts/Gravity-Bold.woff");
+}

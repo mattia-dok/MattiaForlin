@@ -1,0 +1,33 @@
+body {
+  font-family: "Gravity Regular";
+  background-color: #313131;
+}
+
+.project {
+  font-family: "Gravity Bold";
+  color: #FFFFFF;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.project h5 {
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.project img {
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.data {
+  font-family: "Gravity Regular";
+  padding: 10px 10px 10px 10px;
+}
+
+#projects-container {
+  padding: 50px 10px 50px 10px;
+}
