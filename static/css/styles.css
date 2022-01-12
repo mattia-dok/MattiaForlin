@@ -2,3 +2,37 @@ body {
   font-family: "Gravity Regular";
   background-color: #313131;
 }
+
+#social-links {
+  width: 20%;
+  bottom: 30px;
+  right: 20px;
+  position: absolute;
+}
+
+#social-links div {
+  color: #FFFFFF;
+}
+
+#social-icon {
+  width: 32px;
+  height: 32px;
+  filter: invert(100%) sepia(0%) saturate(5%) hue-rotate(126deg) brightness(103%) contrast(103%);
+}
+
+#presentation {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#name {
+  color: #FFFFFF;
+  font-size: 150px;
+  padding: 5px 5px 5px 5px;
+}
+
+#role {
+  color: #FFFFFF;
+  font-size: 24px;
+  padding: 5px 5px 5px 5px;
+}
