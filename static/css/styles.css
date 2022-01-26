@@ -1,7 +1,16 @@
 body {
   font-family: "Gravity Regular";
-  background-color: #313131;
   color:#FFFFFF;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/images/science.jpeg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #social-links {
