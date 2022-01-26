@@ -7,3 +7,13 @@
   font-family: "Gravity Bold";
   src: url("../fonts/Gravity-Bold.woff");
 }
+
+@font-face {
+  font-family: "mononoki Regular";
+  src: url("../fonts/mononoki-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "mononoki Bold";
+  src: url("../fonts/mononoki-Bold.woff");
+}

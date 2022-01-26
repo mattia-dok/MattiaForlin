@@ -1,6 +1,7 @@
 body {
   font-family: "Gravity Regular";
   background-color: #313131;
+  color:#FFFFFF;
 }
 
 #social-links {
@@ -8,10 +9,6 @@ body {
   bottom: 30px;
   right: 20px;
   position: absolute;
-}
-
-#social-links div {
-  color: #FFFFFF;
 }
 
 #social-icon {
@@ -25,14 +22,14 @@ body {
   margin-top: 10%;
 }
 
-#name {
-  color: #FFFFFF;
-  font-size: 150px;
+#name, #role {
   padding: 5px 5px 5px 5px;
 }
 
+#name {
+  font-size: 150px;
+}
+
 #role {
-  color: #FFFFFF;
   font-size: 24px;
-  padding: 5px 5px 5px 5px;
 }

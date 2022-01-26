@@ -1,11 +1,15 @@
 body {
   font-family: "Gravity Regular";
   background-color: #313131;
+  color:#FFFFFF;
+}
+
+h3, span {
+  color:#FFFFFF;
 }
 
 .project {
   font-family: "Gravity Bold";
-  color: #FFFFFF;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -30,4 +34,34 @@ body {
 
 #projects-container {
   padding: 50px 10px 50px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#github, #contact-me {
+  border: none;
+}
+
+#github {
+  background-color: #198754;
+  margin: 10px 0 10px 0;
+}
+
+#contact-me {
+  background-color: #dc3545;
+}
+
+#second-cont {
+  margin: 25px 0 0 0;
+}
+
+#container-2 {
+  margin: 25px 0 0 0;
 }

@@ -1,10 +1,10 @@
 body {
   font-family: "Gravity Regular";
   background-color: #313131;
+  color:#FFFFFF;
 }
 
 #contact-me {
-  color: #FFFFFF;
   font-family: "Gravity Bold";
   padding: 5px 0 20px 0;
 }
@@ -25,5 +25,4 @@ body {
 
 #button:hover {
   background-color: #F53B4D;
-  color: #FFFFFF;
 }

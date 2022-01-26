@@ -1,27 +1,41 @@
 body {
   font-family: "Gravity Regular";
   background-color: #313131;
+  color:#FFFFFF;
 }
 
-.label {
-  color: #FFFFFF;
-}
-
-.progress-bar {
-  width: 50%;
-  background-color: #FFFFFF;
-  color: #000000;
-}
-
-.progress {
-  width: 800px;
-  height: 24px;
-  background-color: rgba(255, 255, 255, 0.4);
-  font-family: "Gravity Bold";
-  font-size: 18px;
+#label-id {
+  padding: 10px 0 10px 0;
 }
 
 img {
   width: 40px;
   height: 40px;
+  margin: 2px 5px 5px 5px;
+}
+
+.blocks {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+}
+
+.bits {
+  font-family: "mononoki Bold";
+  color: #000000;
+  font-size: 26px;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  padding: 1px 2px 1px 2px;
+}
+
+#title {
+  padding: 5px 5px 5px 5px;
+  margin: 20px 0 20px 0;
+}
+
+#container-2 {
+  background-color: #FFFFFF;
+  padding: 50px 410px 10px 410px;
+  color: #000000;
 }
