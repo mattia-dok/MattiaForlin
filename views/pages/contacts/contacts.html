@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MF - Contacts</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap, JQuery, PooperJS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="popper.min.js"></script>
+
+    <!-- Custom CSS and JS-->
+    <link rel="stylesheet" href="/css/font.css" type="text/css">
+    <link rel="stylesheet" href="/css/contacts.css" type="text/css">
+    <link rel="stylesheet" href="/css/nav.css" type="text/css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">  
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+      <div class="container">
+        <a class="navbar-brand nav-L" id="home-L" href="/">>$ cd /home/</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <a class="nav-link nav-L" href="/projects">Projects</a>
+            <a class="nav-link nav-L" href="/skills">Skills</a>
+            <a class="nav-link nav-L" href="/members">Members</a>
+            <a class="nav-link nav-L" href="/aboutme">About me</a>
+            <button class="btn btn-sm btn-outline-secondary" id="become-a-member" onclick="document.location='/members'">BECOME A MEMBER</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container col-2 d-flex flex-column align-items-center" id="cont">
+      <form action="/send_email" method="POST" enctype="multipart/form-data" class="contact-form">
+        <h4 id="contact-me">CONTACT ME</h4>
+        <div class="input-group input-group-sm mb-3">
+          <input type="text" class="form-control" name="name" id="name" placeholder="Name:" required><br>
+        </div>
+        <div class="input-group input-group-sm mb-3">
+          <input type="text" class="form-control" name="email-address" id="email-address" placeholder="Email Address:" required><br>
+        </div>
+        <div class="input-group input-group-sm mb-3">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject:" required><br>
+        </div>
+        <div class="input-group input-group-sm mb-3">
+          <textarea class="form-control" name="message" id="message" placeholder="Message:" rows="4" required></textarea>
+        </div>
+        <div class="input-group input-group-sm mb-3">
+          <label for="attachment">Attachment (not required if there is no need!)</label>
+          <input id="attachment" name="attachment" type="file" accept=".png, .jpeg, .jpg, .pdf"/>
+        </div>      
+        <button type="button" id="button">Send</button>
+      </form>
+      <h4>ATTENTION: 
+        the contact service I am creating still does not work if you need to contact me write an email to this address: mtt.forlin9@gmail.com</h4>
+    </div>
+  </body>
+</html>
