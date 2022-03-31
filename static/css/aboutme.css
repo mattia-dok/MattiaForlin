@@ -23,7 +23,7 @@ a {
 }
 
 #container-2 {
-  width: 60%;
+  width: 70%;
   margin: -220px 10px 30px 250px;
 }
 
@@ -83,18 +83,18 @@ a {
   width: 90px;
   height: 40px;
   filter: invert(100%) sepia(0%) saturate(5%) hue-rotate(126deg) brightness(103%) contrast(103%);
-  margin: -10px 0 0 0;  
+  margin: -10px 0 0 0;
 }
 
 #upwork:hover {
   filter: invert(100%) sepia(0%) saturate(5%) hue-rotate(126deg) brightness(80%) contrast(103%);
-} 
+}
 
 #freelancer {
   width: 120px;
   height: 60px;
   filter: invert(100%) sepia(0%) saturate(5%) hue-rotate(126deg) brightness(103%) contrast(103%);
-  margin: -10px 0 0 -5px;  
+  margin: -10px 0 0 -5px;
 }
 
 #freelancer:hover {
@@ -103,4 +103,15 @@ a {
 
 #line {
   margin: 0 0 15px 0;
+}
+
+#gitlab {
+  width: 80px;
+  height: 60px;
+  margin: -15px 0 0 0;
+  filter: invert(100%) sepia(0%) saturate(5%) hue-rotate(126deg) brightness(103%) contrast(103%);
+}
+
+#gitlab:hover {
+  filter: invert(100%) sepia(0%) saturate(5%) hue-rotate(126deg) brightness(80%) contrast(103%);
 }
